@@ -31,6 +31,7 @@ public class Main {
         MediaPlayer mediaPlayer1 = new MediaPlayer(mp3PlayerAdapter);
         mediaPlayer1.playAudio("song.mp3");
 
+
         // Using a different audio player (e.g., for WAV files)
         // This player doesn't exist yet, but you could create one and adapt it similarly.
         // AdvancedAudioPlayer wavPlayerAdapter = new WAVPlayerAdapter(wavPlayer);
