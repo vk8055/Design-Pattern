@@ -3,7 +3,7 @@ package org.Vinayak.DesignPattern.StructuralDesignPattern.Composite.WithPattern;
 public class Person implements People {
 
     String name;
-    boolean haveAdharCard = true;
+    boolean haveAdharCard;
 
     Person(String name, boolean haveAdharCard){
         this.name = name;
